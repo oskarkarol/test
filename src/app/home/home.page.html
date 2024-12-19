@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,8 +11,22 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="ion-padding">
+    <ion-input
+      label="Outline input (broken on ios)"
+      label-placement="floating"
+      fill="outline"
+      mode="md"
+      placeholder="Enter text"
+    ></ion-input>
+  </div>
+
+  <div class="ion-padding">
+    <ion-input
+      label="Outline input without mode=md"
+      label-placement="floating"
+      fill="outline"
+      placeholder="Enter text"
+    ></ion-input>
   </div>
 </ion-content>
